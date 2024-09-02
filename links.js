@@ -57,7 +57,7 @@ for (let i = 0; i < Links.length; i++) {
 
 const more = document.createElement("div");
  more.className = icons+" more";
- more.textContent = "expand";
+ more.textContent = "expand_more";
  linkBox.appendChild(more);
  
 more.addEventListener('click', function() {
