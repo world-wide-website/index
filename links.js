@@ -1,6 +1,7 @@
 const Links = [
  { name: "You tube", link: "https://www.youtube.com/" },
  { name: "Tools", link: "https://123apps.com/#google_vignette" },
+ { name: "Movie Rulz", link: "https://ww1.4movierulz.llc/category/telugu-featured/page/0" },
  { name: "Ibomma", link: "https://ibomma.online/telugu-movies/" },
  { name: "SVG", link: "https://editor.method.ac/" },
  { name: "vector veteezy", link: "https://veteezy.com/editor/random" },
