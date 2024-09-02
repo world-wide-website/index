@@ -3,9 +3,9 @@ const Links = [
  { name: "Tools", link: "https://123apps.com/#google_vignette" },
  { name: "Ibomma", link: "https://ibomma.online/telugu-movies/" },
  { name: "SVG", link: "https://editor.method.ac/" },
- { name: "vector veteezy", link: "https:veteezy.com/editor/random" },
- { name: "vector vectr", link: "https:vectr.com/codepen/welcome" },
- { name: "vector janvas", link: "https:janvas.com" },
+ { name: "vector veteezy", link: "https://veteezy.com/editor/random" },
+ { name: "vector vectr", link: "https://vectr.com/codepen/welcome" },
+ { name: "vector janvas", link: "https://janvas.com" },
  { name: "Free Convert", link: "https://www.freeconvert.com/webp-to-jpg/" },
  { name: "Bing Copilot", link: "https://www.bing.com/chat?q=Microsoft%20Copilot&qs=ds&form=ATCVAJ" },
  { name: "Unspash Images", link: "https://unsplash.com/" },
@@ -41,13 +41,13 @@ for (let i = 0; i < Links.length; i++) {
  const TabName = Links[i].name;
  const TabLink = Links[i].link;
 
-  if (TabName && TabLink) { // Check if both name and link are not empty
+  if (TabName && TabLink) { 
    const linkTitle = document.createElement("a");
    const titleLink = document.createElement("button");
    linkTitle.className = "linktitle";
    titleLink.className = "titlelink";
    
-   titleLink.textContent = TabName //.charAt(0).toUpperCase() + TabName.slice(1).toLowerCase();
+   titleLink.textContent = TabName
    linkTitle.href = TabLink;
    
    scrollbar.appendChild(linkTitle);
@@ -56,16 +56,10 @@ for (let i = 0; i < Links.length; i++) {
 }
 
 const more = document.createElement("div");
- more.className = "more";
- more.textContent = "more";
+ more.className = icons+" more";
+ more.textContent = "expand";
  linkBox.appendChild(more);
-
-const downarrow = document.createElement("span");
- downarrow.className = icons;
- downarrow.textContent = "expand_more";
- more.appendChild(downarrow);
  
-// Add the click event listener
 more.addEventListener('click', function() {
-  scrollbar.classList.toggle('expanded');
+ scrollbar.classList.toggle('expanded');
 });
