@@ -13,7 +13,7 @@ body{
 .linkbox{ 
  display:grid;
  grid-template-columns: 3.5rem auto 45px;
-	align-items:start;
+ align-items:start;
  margin-top: 5px;
  height:3.5rem;
  width:100vw;
@@ -92,13 +92,12 @@ body{
 
 .expanded{
  display: flex;
- flex-direction: column;
- height: 300px;
  flex-wrap: wrap;
- /* width: 84vw; */
  border-left: 2px solid transparent;
  border-right: 2px solid transparent;
  padding: 5px;
- justify-content: flex-start;
- align-items: flex-start;
+ justify-content: center;
+ align-items: center;
+ height: auto;
+ overflow-y: scroll ;
 }
