@@ -12,8 +12,8 @@ body{
 
 .linkbox{ 
  display:grid;
- grid-template-columns: 3.5rem auto 6rem;
-	align-items:start;
+ grid-template-columns: 3.5rem auto 45px;
+ align-items:start;
  margin-top: 5px;
  height:3.5rem;
  width:100vw;
@@ -36,10 +36,8 @@ body{
 
 .scroll{
  display: flex;
- /* flex-direction: column; */
  gap: .5rem;
  align-items: center;
- /* justify-content: center; */
  overflow-y: scroll;
  border-left: 2px solid #aaa;
  border-right: 2px solid #aaa;
@@ -77,30 +75,30 @@ body{
 
 .more{
  display: flex;
- font-size: 1.1rem;
+ font-size: 12px;
  align-items: center;
  justify-content: center;
- margin: 0px 0px 0 10px;
+ margin: 0px 10px 0 10px;
  background: white;
  font-weight: 600;
  color: #202020;
  border-radius: .9rem;
- padding: 5px 5px 5px 15px;
+ padding: 0px 5px;
  text-transform: capitalize;
  cursor: pointer;
+ height:34px;
+ width: 36px;
 }
 
 .expanded{
- height:100%;
- width: 100%;
- padding: 5px;
  display: flex;
+ flex-direction: column;
+ height: 300px;
  flex-wrap: wrap;
- overflow: visible;
- flex-direction: row;
- align-items: center;
- justify-content: center;
- align-content: space-around;
+ /* width: 84vw; */
  border-left: 2px solid transparent;
  border-right: 2px solid transparent;
+ padding: 5px;
+ justify-content: flex-start;
+ align-items: flex-start;
 }
