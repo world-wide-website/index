@@ -1,5 +1,7 @@
 const Links = [
  { name: "You tube", link: "https://www.youtube.com/" },
+ { name: "online Games", link: "https://poki.com/" },
+ { name: "I Bomma", link: "https://edu.ibomma.games/telugu-movies/" },
  { name: "Tools", link: "https://123apps.com/#google_vignette" },
  { name: "Movie Rulz", link: "https://ww1.4movierulz.llc/category/telugu-featured/page/0" },
  { name: "Ibomma", link: "https://ibomma.online/telugu-movies/" },
