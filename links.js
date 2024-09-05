@@ -19,6 +19,8 @@ const Links = [
  { name: "COC layout", link: "https://clashofclans-layouts.com/" },
  { name: "wynk", link: "https://wynk.in/music" },
  { name: "W3", link: "https://www.w3schools.com/" },
+ { name: "Ai photo's", link: "https://app.leonardo.ai/" },
+ { name: "img to mp4", link: "https://app.runwayml.com/video-tools" },
  { name: "", link: "" },
 ];
  
