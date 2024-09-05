@@ -2,6 +2,8 @@ const Links = [
  { name: "You tube", link: "https://www.youtube.com/" },
  { name: "online Games", link: "https://poki.com/" },
  { name: "I Bomma", link: "https://edu.ibomma.games/telugu-movies/" },
+ { name: "CV", link: "https://www.goodcv.com/" },
+ { name: "wynk", link: "https://wynk.in/music" },
  { name: "Tools", link: "https://123apps.com/#google_vignette" },
  { name: "Movie Rulz", link: "https://ww1.4movierulz.llc/category/telugu-featured/page/0" },
  { name: "SVG", link: "https://editor.method.ac/" },
@@ -14,13 +16,11 @@ const Links = [
  { name: "pixabay Images", link: "https://pixabay.com/" },
  { name: "canva", link: "https://www.canva.com/" },
  { name: "open ai", link: "https://platform.openai.com/docs/overview" },
- { name: "CV", link: "https://www.goodcv.com/" },
  { name: "Github", link: "https://github.com/" },
  { name: "COC layout", link: "https://clashofclans-layouts.com/" },
- { name: "wynk", link: "https://wynk.in/music" },
- { name: "W3", link: "https://www.w3schools.com/" },
  { name: "Ai photo's", link: "https://app.leonardo.ai/" },
  { name: "img to mp4", link: "https://app.runwayml.com/video-tools" },
+ { name: "W3", link: "https://www.w3schools.com/" },
  { name: "", link: "" },
 ];
  
