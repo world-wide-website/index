@@ -2,6 +2,7 @@ const Links = [
  { name: "You tube", link: "https://www.youtube.com/" },
  { name: "online Games", link: "https://poki.com/" },
  { name: "I Bomma", link: "https://edu.ibomma.games/telugu-movies/" },
+ { name: "Explorer", link: "https://explorer.globe.engineer/" },
  { name: "CV", link: "https://www.goodcv.com/" },
  { name: "wynk", link: "https://wynk.in/music" },
  { name: "Tools", link: "https://123apps.com/#google_vignette" },
@@ -19,8 +20,13 @@ const Links = [
  { name: "Github", link: "https://github.com/" },
  { name: "COC layout", link: "https://clashofclans-layouts.com/" },
  { name: "Ai photo's", link: "https://app.leonardo.ai/" },
- { name: "img to mp4", link: "https://app.runwayml.com/video-tools" },
+ { name: "AI img to vid 1", link: "https://app.runwayml.com/video-tools" },
+ { name: "Ai img to vid 2", link: "https://krea.ai" },
  { name: "W3", link: "https://www.w3schools.com/" },
+ { name: "QR Genetater", link: "https://www.qrcodechimp.com/" },
+ { name: "clear image", link: "https://replicate.com/megvii-research/nafnet" },
+ { name: "Paid softwares", link: "https://smartserials.com/a1.php" },
+ { name: "video editing", link: "runwaymi.com" },
  { name: "", link: "" },
 ];
  
