@@ -30,6 +30,11 @@ const Links = [
  { name: "Free credit card generator", link: "https://www.akto.io/tools/credit-card-generator" }, 
  { name: "Hamster Kombat", link: "https://t.me/hAmster_kombat_bot/start?startapp=kentId1853826077" }, 
  { name: "Aagame chat", link: "https://www.aagame.info/chatlink.html?language=en&metadata={%22comment%22:%22590697613024955181%22}" }, 
+ { name: "Re-Edit", link: "https://uizard.io/" },  
+ { name: "", link: "" }, 
+ { name: "", link: "" }, 
+ { name: "", link: "" }, 
+ { name: "", link: "" }, 
  { name: "", link: "" },
 ];
  
