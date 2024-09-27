@@ -26,7 +26,10 @@ const Links = [
  { name: "QR Genetater", link: "https://www.qrcodechimp.com/" },
  { name: "clear image", link: "https://replicate.com/megvii-research/nafnet" },
  { name: "Paid softwares", link: "https://smartserials.com/a1.php" },
- { name: "video editing", link: "runwaymi.com" },
+ { name: "video editing", link: "runwaymi.com" }, 
+ { name: "Free credit card generator", link: "https://www.akto.io/tools/credit-card-generator" }, 
+ { name: "Hamster Kombat", link: "https://t.me/hAmster_kombat_bot/start?startapp=kentId1853826077" }, 
+ { name: "Aagame chat", link: "https://www.aagame.info/chatlink.html?language=en&metadata={%22comment%22:%22590697613024955181%22}" }, 
  { name: "", link: "" },
 ];
  
