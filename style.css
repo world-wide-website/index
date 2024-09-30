@@ -39,6 +39,7 @@ body {
   width: 100vw; 
   display: flex; 
   position: fixed; 
+  padding-top: 4px; 
   align-items: center; 
   justify-content: space-around; 
   border-top: .3vh solid #595958; 
