@@ -32,7 +32,7 @@ body {
  font-family: 'Material Symbols Outlined'; 
 }
 
-@media (max-width: 412px) {
+@media (max-width: 812px) {
  footer { 
   bottom: 0; 
   height: 6vh; 
@@ -64,7 +64,7 @@ body {
  }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
  .footer p { display: none; }
  .footer span { font-size: 6vh; }
  .footer:nth-child(3) span { font-size: 9vh; }
