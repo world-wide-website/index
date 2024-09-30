@@ -8,6 +8,7 @@ const Links = [
  { name: "Tools", link: "https://123apps.com/#google_vignette" },
  { name: "Movie Rulz", link: "https://ww1.4movierulz.llc/category/telugu-featured/page/0" },
  { name: "SVG", link: "https://editor.method.ac/" },
+ { name: "Screen Dimensions", link: "https://world-wide-website.github.io/test-site/" },
  { name: "vector veteezy", link: "https://veteezy.com/editor/random" },
  { name: "vector vectr", link: "https://vectr.com/codepen/welcome" },
  { name: "vector janvas", link: "https://janvas.com" },
