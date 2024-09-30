@@ -13,13 +13,18 @@ style.rel = "stylesheet";
 style.href = "style.css";
 document.head.appendChild(style);
 
-
 const links = document.createElement("link");
 links.rel = "stylesheet";
 links.href = "links.css";
 document.head.appendChild(links);
 
-const script = document.createElement("script");
+
+const layout = document.createElement("script");
+script.src = 'layout.js';
+script.type = 'text/javascript';
+document.body.appendChild(layout);
+
+const link = document.createElement("script");
 script.src = 'links.js';
 script.type = 'text/javascript';
-document.body.appendChild(script);
+document.body.appendChild(link);
