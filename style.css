@@ -5,7 +5,7 @@ body { font-family: 'Open sans', sans-serif; background: #202020; color: #fff; }
 .Selected { display: inline-block; margin: 10px; cursor: pointer; }
 .material-symbols-outlined { font-family: 'Material Symbols Outlined'; font-size: 24px; display: inline-block; }
 
-@media (min-width: 786px) {
+@media (max-width: 786px) {
  footer { display: flex; height: 8vh; width: 100vw; bottom: 0; border-top: 1px solid #595958; align-items: center; justify-content: space-around; }
  footer .footer { flex-direction: column; align-items: center; width: 50px; flex-grow: 1; }
  footer .footer span { font-size: 4vh; }
