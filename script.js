@@ -23,7 +23,7 @@ layout.src = 'layout.js';
 layout.type = 'text/javascript';
 document.body.appendChild(layout);
 
-const link = document.createElement("script");
-link.src = 'links.js';
-link.type = 'text/javascript';
-document.body.appendChild(link);
+const header = document.createElement("script");
+header.src = 'header.js';
+header.type = 'text/javascript';
+document.body.appendChild(header);
