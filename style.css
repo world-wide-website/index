@@ -10,6 +10,86 @@ body {
  font-family: 'Open sans', sans-serif; 
 }
 
+.material-symbols-outlined{
+  display: flex;
+  font-size: 2vh;
+  min-width: 4.5vh;
+  aspect-ratio: 1;
+  cursor: pointer;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+.head{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 1vw 2vw;
+ height: 6vh;
+ background-color: black;
+ color: #fff;
+ font-size: 2vw;
+}
+
+.log{
+ display: flex;
+ flex: .3;
+ align-items: center;
+ justify-content: center;
+} 
+.logname{ 
+ display: flex;
+}
+
+.searchContainer{
+ display: flex;
+ width: 40%;
+ align-items: center;
+ justify-content: space-between;
+ color: white;
+}
+
+.searchbox{
+ flex: .98;
+ display: inherit;
+ width: 60vw;
+ height: 5vh;
+ column-gap: .25vw;
+ border-radius: 50vw ;
+ background: #404040;
+ overflow: hidden;
+ padding: .2vh .35vh;
+}
+
+.inputSearch{
+ flex: 1;
+ border: none;
+ outline: none;
+ font-size: 2vh;
+ display: inherit;
+ background-color: black;
+ border-radius: 2vh 0 0 2vh;
+ padding: 1vh 0.5vh 1vh 2vh;
+}
+
+.search{
+ min-width: 12%;
+ border-radius: 0 2vh 2vh 0;
+ background: #202020;
+}
+.voiceSearch{
+ background: #202020;
+}
+.inof{
+ display: inherit;
+ gap: 2.5vh;
+}
+.inof .material-symbols-outlined{
+ font-size: 3vh;
+ min-width: fit-content;
+}
+
 .prev:hover, .next:hover, .Selected:hover, .active { color: #00a7ff; }
 
 .Selectedsbox { 
