@@ -1,9 +1,25 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <title>All in one</title>
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body></body>
-<script src="script.js"></script>
+<script>
+let baseName = "database"; 
+
+document.title = baseName;
+const resources = [
+  { type: "link", rel: "stylesheet", href: `${baseName}.css` },
+  { type: "script", src: `${baseName}.js` }
+];
+
+resources.forEach(res => {
+  const el = document.createElement(res.type);
+  if (res.rel) el.rel = res.rel;
+  if (res.href) el.href = res.href;
+  if (res.src) el.src = res.src;
+  document.head.appendChild(el);
+});
+</script>
 </html>
