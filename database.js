@@ -1,4 +1,3 @@
-// ================= FASTTAG =================
 window.fastTag = (tag, parent, className, id, text) => {
   const el = document.createElement(tag);
   if (parent) parent.appendChild(el);
@@ -396,7 +395,7 @@ getSizeFromSrc(data.src, data.bytes).then(newBytes=>{
 
 fastTag("td", row, null, null, data.uploaded);
 
-  const actionTd = fastTag("td", row);
+  const actionTd = fastTag("td", row ,"action-btn");
 
   fastTag("button", actionTd, null, null, "Open").onclick =
     ()=> window.open(data.src);
@@ -405,16 +404,10 @@ fastTag("td", row, null, null, data.uploaded);
     row.remove();
     filesData = filesData.filter(f=>f!==data);
   };
-
-  
 }
-
-// ================= LOAD =================
 function loadFromArray(arr){
   arr.forEach(i=>addToTable(null,i));
 }
-
-// ================= SAMPLE =================
 loadFromArray([
   { src:"audio/Bandy.mp3", size:"", uploaded:"4 Apr 2026" },
   { src:"audio/Barso re.mp3", size:"", uploaded:"12 feb 2026" },
