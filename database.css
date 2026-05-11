@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background:#0a0a0a;
+  color:#fff;
+  font-family:sans-serif;
+}
+
+.Container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header{
+  display:flex;
+  gap:10px;
+  padding:10px;
+  background:#111;
+}
+
+button{
+  padding:8px 12px;
+  background:#222;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+}
+
+.drop-zone{
+  margin:20px;
+  padding:40px;
+  border:2px dashed #555;
+  text-align:center;
+}
+
+.file-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.file-table td,.file-table th{
+  border:1px solid #333;
+  padding:8px;
+  border-collapse:collapse;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+  gap:15px;
+  padding:20px;
+}
+
+.card{
+  background:#111;
+  padding:10px;
+  border-radius:10px;
+  height: max-content;
+}
+
+.card img,
+.card video{
+  width:100%;
+  border-radius:8px;
+}
+
+.title{
+  margin-top:8px;
+  font-weight:bold;
+}
+
+.info{
+  font-size:12px;
+  color:#aaa;
+}
+
+.file-table img.thumb,
+.file-table video.thumb {
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.file-table .audio-icon,
+.file-table .pdf-icon,
+.file-table .text-icon,
+.file-table .word-icon,
+.file-table .excel-icon,
+.file-table .file-icon {
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 24px;
+  background: #222;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.action-btn{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+}
